@@ -1,0 +1,300 @@
+{
+    "accessors": {
+        "accessor_16": {
+            "bufferView": "bufferView_22",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 216,
+            "max": [
+                23.0
+            ],
+            "min": [
+                0.0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_18": {
+            "bufferView": "bufferView_23",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                249778.0,
+                2302230.0,
+                267.6780090332031
+            ],
+            "min": [
+                249385.0,
+                2302060.0,
+                266.47802734375
+            ],
+            "type": "VEC3"
+        },
+        "accessor_20": {
+            "bufferView": "bufferView_23",
+            "byteOffset": 552,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                0.3409160077571869,
+                0.917801022529602,
+                0.9998930096626282
+            ],
+            "min": [
+                -0.3361569941043854,
+                -0.9322069883346558,
+                -0.9999840259552002
+            ],
+            "type": "VEC3"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@GITDIR-NOTFOUND",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_22": {
+            "buffer": "ExportModel_1",
+            "byteLength": 432,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_23": {
+            "buffer": "ExportModel_1",
+            "byteLength": 1104,
+            "byteOffset": 432,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "ExportModel_1": {
+            "byteLength": 1536,
+            "type": "arraybuffer",
+            "uri": "data:application/octet-stream;base64,AAABAAIAAwAAAAIAAwACAAQABQADAAQABQAEAAYABwAFAAYABwAGAAEAAAAHAAEAAAADAAUABwAAAAUAAgABAAYABAACAAYACAAJAAoACwAIAAoACwAKAAwADQALAAwADQAMAA4ADwANAA4ADwAOAAkACAAPAAkACAALAA0ADwAIAA0ACgAJAA4ADAAKAA4AEAARABIAEwAQABIAEwASABQAFQATABQAFQAUABYAFwAVABYAFwAWABEAEAAXABEAEAATABUAFwAQABUAEgARABYAFAASABYAGAAZABoAGwAYABoAGwAaABwAHQAbABwAHQAcAB4AHwAdAB4AHwAeABkAGAAfABkAGAAbAB0AHwAYAB0AGgAZAB4AHAAaAB4AIAAhACIAIwAgACIAIwAiACQAJQAjACQAJQAkACYAJwAlACYAJwAmACEAIAAnACEAIAAjACUAJwAgACUAIgAhACYAJAAiACYAKAApAAsAFQAoAAsAFQALACoAKwAVACoAKwAqACwALQArACwALQAsACkAKAAtACkAKAAVACsALQAoACsACwApACwAKgALACwAQIpzSHiCDEowfYVDwItzSCiCDEowfYVDwItzSCiCDEowPYVDQIpzSHiCDEowPYVDALZzSBiDDEowPYVDgLRzSGiDDEowPYVDwJRzSFCCDEowfYVDQJNzSKCCDEowfYVDwIxzSACCDEowPYVDwIxzSACCDErJ1oVDwIxzSACCDErJ1oVDwIxzSACCDEowPYVDAOtzSAiEDErJ1oVDAOtzSAiEDEowPYVDAOtzSDCEDErJ1oVDAOtzSDCEDEowPYVDgOxzSOCDDEowPYVDgOxzSOCDDErJ1oVDgOxzSOCDDErJ1oVDgOxzSOCDDEowPYVDQI5zSLCBDErJ1oVDQI5zSLCBDEowPYVDQI5zSLCBDErJ1oVDQI5zSLCBDEowPYVDQIpzSHiCDEowPYVDQIpzSHiCDErJ1oVDQIpzSHiCDErJ1oVDQIpzSHiCDEowPYVDwN5zSFiEDErJ1oVDwN5zSFiEDEowPYVDwN5zSFiEDErJ1oVDwN5zSFiEDEowPYVDQOBzSAiEDEowPYVDQOBzSAiEDErJ1oVDQOBzSAiEDErJ1oVDQOBzSAiEDEowPYVDwItzSCiCDErJ1oVDwItzSCiCDEowPYVDwItzSCiCDErJ1oVDwItzSCiCDEowPYVDQL1zSMiCDEowPYVDwLtzSBiDDEowPYVDwIxzSACCDEowfYVDQI5zSLCBDEowfYVDgJpzSFCCDEowfYVDAJxzSACCDEowfYVDQvGePem3D760r3y/P7eGOmsTgjyt93+/ixPju3LsDz3t1X8/DwrOOwpBWLz9+H8/cbUpvDcfsjz+7H8/ZGtHPAbKfL09fn+/W44fvP5FkDyy8n+/qYS/udrruLv0/n+/zHqRPuc5Rr/ovhA/i4yuPh6lbr9u3vi9kxyQvsODRj9GsRC/0cQgvbH64z3WNX4/LZmrvu3Saj8sQ1y+zLiRvn8yRj93uRA/ct6PPhmLRr+VthC/OUGrPuviar/2Q1w+io6EvrZKND8/Oik/LZmrvu3Saj8sQ1y+bqaCPnuhNL+rPCm/1/qqPrLvar98RFw+LZmrPu3Sar8sQ1y+igsbPVtAuL0Rx34/bqaCvnuhND+rPCm/1/qqvrLvaj98RFw+T+WEPj6vNL/cvSg/l4yrPjnVar8sQ1y+k8SCvh8PNT92wSi/vt2qvgL1aj+/RFw+9KGrviTxaj9kIVq+huSEvluwND/gvCg/XcWCPhMONb+Dwii/JPGqPh8Ra78PJVo+1QiFvuM0ND+XOSk/xRysvuC6aj/dQVy+A+mCPq+VNL9YPCm/WWyrPg7bar9wQ1w+xRysPuC6ar/dQVy+1QiFPuM0NL+XOSk/A+mCvq+VND9YPCm/WWyrvg7baj9wQ1w+5RtAvHFV2Txp5H8/A0xPPH46jr19XH+/DODSPHd6r7w823+/OXySvEqdez23eX+/k8kEPPUV5Lxp5H+/7WGSu0mfczvj/n+/"
+        }
+    },
+    "materials": {
+        "material_effect": {
+            "name": "material",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 1.0,
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geometry": {
+            "name": "geometry",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_20",
+                        "POSITION": "accessor_18"
+                    },
+                    "indices": "accessor_16",
+                    "material": "material_effect",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "LOD": {
+            "children": [
+                "matrixTransform"
+            ],
+            "name": "LOD"
+        },
+        "group": {
+            "children": [
+                "LOD"
+            ],
+            "name": "group"
+        },
+        "matrixTransform": {
+            "children": [
+                "matrixTransform_1"
+            ],
+            "name": "matrixTransform"
+        },
+        "matrixTransform_1": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -249581.0,
+                -2302140.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "geometry"
+            ],
+            "name": "matrixTransform_1"
+        },
+        "node_5": {
+            "children": [
+                "sceneRoot"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Y_UP_Transform"
+        },
+        "sceneRoot": {
+            "children": [
+                "group"
+            ],
+            "name": "sceneRoot"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "ExportModel_10FS",
+            "vertexShader": "ExportModel_10VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_5"
+            ]
+        }
+    },
+    "shaders": {
+        "ExportModel_10FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnVuaWZvcm0gdmVjNCB1X2FtYmllbnQ7CnVuaWZvcm0gdmVjNCB1X2RpZmZ1c2U7CnVuaWZvcm0gdmVjNCB1X2VtaXNzaW9uOwp1bmlmb3JtIHZlYzQgdV9zcGVjdWxhcjsKdW5pZm9ybSBmbG9hdCB1X3NoaW5pbmVzczsKdm9pZCBtYWluKHZvaWQpIHsKdmVjMyBub3JtYWwgPSBub3JtYWxpemUodl9ub3JtYWwpOwp2ZWM0IGNvbG9yID0gdmVjNCgwLiwgMC4sIDAuLCAwLik7CnZlYzQgZGlmZnVzZSA9IHZlYzQoMC4sIDAuLCAwLiwgMS4pOwp2ZWM0IGVtaXNzaW9uOwp2ZWM0IGFtYmllbnQ7CnZlYzQgc3BlY3VsYXI7CmFtYmllbnQgPSB1X2FtYmllbnQ7CmRpZmZ1c2UgPSB1X2RpZmZ1c2U7CmVtaXNzaW9uID0gdV9lbWlzc2lvbjsKc3BlY3VsYXIgPSB1X3NwZWN1bGFyOwpkaWZmdXNlLnh5eiAqPSBtYXgoZG90KG5vcm1hbCx2ZWMzKDAuLDAuLDEuKSksIDAuKTsKY29sb3IueHl6ICs9IGRpZmZ1c2UueHl6Owpjb2xvci54eXogKz0gZW1pc3Npb24ueHl6Owpjb2xvciA9IHZlYzQoY29sb3IucmdiICogZGlmZnVzZS5hLCBkaWZmdXNlLmEpOwpnbF9GcmFnQ29sb3IgPSBjb2xvcjsKaWYoZ2xfRnJhZ0NvbG9yLmEgPCAwLjEpCnsKZGlzY2FyZDsKfQp9Cg=="
+        },
+        "ExportModel_10VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    }
+}

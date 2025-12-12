@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CesiumJS Accurate Ground Alignment + Rotation</title>
+
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.135/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.135/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+    <style>
+        html, body, #cesiumContainer {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #loadingScreen {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            color: white;
+            z-index: 10000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Loading screen -->
+    <div id="loadingScreen">
+        <img src="loading.gif" width="50"><br>
+        Loading Model...
+    </div>
+
+    <div id="cesiumContainer"></div>
+
+    <script>
+
+        async function init() {
+
+            // 1️⃣ Create Cesium viewer
+            const viewer = new Cesium.Viewer("cesiumContainer", {
+                baseLayerPicker: false
+            });
+
+            // 2️⃣ Enable terrain (new Cesium API)
+            viewer.terrainProvider = await Cesium.CesiumTerrainProvider.fromUrl(
+                Cesium.IonResource.fromAssetId(1)
+            );
+
+            // 3️⃣ Your coordinates
+            const lon = 78.594165;
+            const lat = 20.802382;
+
+            // 4️⃣ Accurate terrain height from console
+            const terrainHeight = 195.78193042425937;
+
+            // 5️⃣ Lower model by 10cm for best appearance
+            const finalHeight = terrainHeight - 0.10;
+
+            console.log("Using accurate ground height:", finalHeight);
+
+            // 6️⃣ Add GLTF model
+            const modelEntity = viewer.entities.add({
+                name: "Accurate GLTF Model",
+                position: Cesium.Cartesian3.fromDegrees(lon, lat, finalHeight),
+                model: {
+                    uri: "Lod/ExportModel_0.gltf",
+                    minimumPixelSize: 128,
+                    maximumScale: 200
+                }
+            });
+
+            // 7️⃣ Rotation control
+            const headingDegrees = 90; // change angle here!
+            const heading = Cesium.Math.toRadians(headingDegrees);
+            const pitch = 0;
+            const roll = 0;
+
+            const hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);
+            const orientation = Cesium.Transforms.headingPitchRollQuaternion(
+                Cesium.Cartesian3.fromDegrees(lon, lat, finalHeight),
+                hpr
+            );
+
+            modelEntity.orientation = orientation;
+
+            // 8️⃣ Fly camera to the model
+            viewer.zoomTo(modelEntity);
+
+            // 9️⃣ Hide loading screen
+            document.getElementById("loadingScreen").style.display = "none";
+        }
+
+        init();
+
+    </script>
+
+</body>
+</html>
+
+
+
+     
